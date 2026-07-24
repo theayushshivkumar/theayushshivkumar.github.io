@@ -11,19 +11,19 @@ email: ayush19shiv@gmail.com
 rss_icon: false
 
 # Add this once you've created your Scholar profile.
-scholar_userid:
+scholar_userid: ec_MMBsAAAAJ
 
 # Add these when you have them
 orcid_id: 0009-0008-2096-5797
 github_username: theayushshivkumar
 linkedin_username: ayush-shivkumar-0a698a225
-adsabs_id:
+# adsabs_id:
 
 # Optional
 # researchgate_profile:
 # mastodon_username:
 # bluesky_url:
-x_username: @ThinkYouLarity
+x_username: ThinkYouLarity
 
 # Remove the template custom social link
 # custom_social:
