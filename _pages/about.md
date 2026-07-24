@@ -15,7 +15,7 @@ profile:
     <p>Currently based in India</p>
     <p>Interested in PhD opportunities</p>
 
-selected_papers: false
+# selected_papers: false
 
 social: true
 
