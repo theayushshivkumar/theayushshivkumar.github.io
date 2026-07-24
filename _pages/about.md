@@ -3,16 +3,16 @@ layout: about
 title: about
 permalink: /
 
-subtitle: >
-  BS–MS Graduate in Physics<br>
-  Indian Institute of Science Education and Research (IISER) Thiruvananthapuram
+# subtitle: >
+  # BS–MS Graduate in Physics<br>
+  # Indian Institute of Science Education and Research (IISER) Thiruvananthapuram
 
 profile:
   align: right
   image: profile.jpg
   image_circular: false
   more_info: >
-    <p>Currently based in India</p>
+    <p>Currently based in Tamil Nadu, India</p>
     <p>Interested in PhD opportunities</p>
 
 selected_papers: true
