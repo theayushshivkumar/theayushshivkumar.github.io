@@ -1,14 +1,32 @@
-# this file contains the social media links and usernames of the author
-# the socials will be displayed in the order they are defined here
-# for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
-cv_pdf: /assets/pdf/example_pdf.pdf # path to your CV PDF file
-email: you@example.com # your email address
-inspirehep_id: 1010907 # Inspire HEP author ID
-rss_icon: true # comment this line to hide the RSS icon
-scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
-# wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
-# whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-custom_social: # can be any name here other than the ones already defined in the jekyll-socials plugin
-  logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
-  title: Custom Social
-  url: https://www.alberteinstein.com/
+# Social media links
+
+cv_pdf: /assets/pdf/Ayush_Shivkumar_CV.pdf
+
+email: ayush19shiv@gmail.com
+
+# InspireHEP is mainly for high-energy physics.
+# Since you're in star/planet formation, you can comment it out for now.
+# inspirehep_id:
+
+rss_icon: false
+
+# Add this once you've created your Scholar profile.
+scholar_userid:
+
+# Add these when you have them
+orcid_id: 0009-0008-2096-5797
+github_username: theayushshivkumar
+linkedin_username: ayush-shivkumar-0a698a225
+adsabs_id:
+
+# Optional
+# researchgate_profile:
+# mastodon_username:
+# bluesky_url:
+x_username: @ThinkYouLarity
+
+# Remove the template custom social link
+# custom_social:
+#   logo:
+#   title:
+#   url:
