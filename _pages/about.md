@@ -12,10 +12,10 @@ profile:
   image: profile.jpg
   image_circular: false
   more_info: >
-    <p>Currently based in Tamil Nadu, India</p>
+    <p>Currently based in India</p>
     <p>Interested in PhD opportunities</p>
 
-selected_papers: true
+selected_papers: false
 
 social: true
 
