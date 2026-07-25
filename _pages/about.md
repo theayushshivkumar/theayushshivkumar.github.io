@@ -26,6 +26,8 @@ announcements:
 latest_posts:
   enabled: false
 ---
+# Ayush Shivkumar
+
 I recently graduated with a **BS–MS (Integrated Bachelor's + Master's) in Physics** from the **Indian Institute of Science Education and Research (IISER) Thiruvananthapuram**, with a minor in Data Science.
 
 My research interests lie in **star and planet formation**, particularly the physical and chemical evolution of protoplanetary disks. I am interested in understanding how accretion, disk chemistry, and gas dynamics influence the environments where planets form, using multi-wavelength observations from facilities such as **JWST/MIRI**, **VLT**, **CFHT/ESPaDOnS**, **Keck/NIRSPEC**, **ALMA**, **TESS**, and other high-resolution spectrographs.
