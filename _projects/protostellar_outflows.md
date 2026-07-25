@@ -4,7 +4,6 @@ title: Protostellar Outflows and Gas Kinematics in Massive Star-forming Regions
 description: Research Internship • Physical Research Laboratory (PRL) (05/2024 – 07/2024)
 img: assets/img/SiO_outflow_channel.png
 importance: 2
-category: Research
 related_publications: false
 ---
 ## Project Supervisor: Dr. Manash Samal (PRL)
