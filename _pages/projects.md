@@ -5,7 +5,6 @@ permalink: /projects/
 description: A List and Brief Description of each of my Previous Research Experiences.
 nav: true
 nav_order: 3
-display_categories: []
 horizontal: false
 ---
 
