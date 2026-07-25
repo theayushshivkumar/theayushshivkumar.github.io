@@ -5,7 +5,7 @@ description: Minor Degree Project • IISER Thiruvananthapuram (2025–2026) •
 img: assets/img/Epeak-alpha_correlation.png
 importance: 3
 category: Research
-related_publications: true
+related_publications: false
 ---
 
 ## Overview
@@ -48,7 +48,7 @@ During this project, I gained experience in
 
 ---
 
-## Representative Figures
+## Some Interesting Figures
 
 <div class="row justify-content-center">
 
@@ -65,7 +65,7 @@ class="img-fluid rounded z-depth-1"
 
 <div class="caption">
 
-(Adopted directly from P.P.Bordoloi et al. (2026); under review) **Temporal Binning Scheme and Corresponding Epeak Evolution** Panels (a) and (b) show the hard-to-soft E<sub>peak</sub> evolution case, while panels (c) and (d) correspond to the intensity-tracking E<sub>peak</sub> evolution. In each panel, the green solid curve represents the underlying Norris pulse used to model the flux evolution, and the red solid curve represents E<sub>peak</sub> evolution. The vertical magenta dashed lines indicate the edges of the main time-resolved bins obtained using the two binning methods (constant fluence: (a), (c) and Bayesian blocks: (b), (d) ), whereas the thin grey vertical dotted lines mark the fine bins introduced within each main bin. The green points denote the average flux in each fine bin, and the red points indicate the corresponding average E<sub>peak</sub> values. The red shaded regions represent time intervals where the flux falls below the adopted detector threshold and are excluded from the analysis.
+(Adopted directly from P. P. Bordoloi et al. (2026); under review) **Temporal Binning Scheme and Corresponding Epeak Evolution** Panels (a) and (b) show the hard-to-soft E<sub>peak</sub> evolution case, while panels (c) and (d) correspond to the intensity-tracking E<sub>peak</sub> evolution. In each panel, the green solid curve represents the underlying Norris pulse used to model the flux evolution, and the red solid curve represents E<sub>peak</sub> evolution. The vertical magenta dashed lines indicate the edges of the main time-resolved bins obtained using the two binning methods (constant fluence: (a), (c) and Bayesian blocks: (b), (d) ), whereas the thin grey vertical dotted lines mark the fine bins introduced within each main bin. The green points denote the average flux in each fine bin, and the red points indicate the corresponding average E<sub>peak</sub> values. The red shaded regions represent time intervals where the flux falls below the adopted detector threshold and are excluded from the analysis.
 
 </div>
 
@@ -86,7 +86,7 @@ class="img-fluid rounded z-depth-1"
 
 <div class="caption">
 
-Counts and residual plots (left panels) and corresponding νFν spectra (right panels) for the peak bin in the hard-to-soft and intensity-tracking spectral-evolution cases using constant-fluence binning.
+(Adopted directly from P.P.Bordoloi et al. (2026); under review) Counts and residual plots (left panels) and corresponding νFν spectra (right panels) for the peak bin in the hard-to-soft and intensity-tracking spectral-evolution cases using constant-fluence binning.
 
 </div>
 
@@ -107,7 +107,7 @@ class="img-fluid rounded z-depth-1"
 
 <div class="caption">
  
-(a) E<sub>peak</sub>–&alpha; correlation for the hard-to-soft E<sub>peak</sub> evolution case. Green circles and violet squares represent the results obtained using Bayesian block and constant-fluence binning, respectively. The corresponding dashed curves show the best-fit Hill functions. (b) Same as panel (a), but for the intensity-tracking E<sub>peak</sub> evolution case. Magenta pentagons and cyan squares denote the Bayesian block and constant-fluence binning results, respectively, with the dashed curves showing the corresponding best-fit Hill functions. 
+(Adopted directly from P.P.Bordoloi et al. (2026); under review) (a) E<sub>peak</sub>–&alpha; correlation for the hard-to-soft E<sub>peak</sub> evolution case. Green circles and violet squares represent the results obtained using Bayesian block and constant-fluence binning, respectively. The corresponding dashed curves show the best-fit Hill functions. (b) Same as panel (a), but for the intensity-tracking E<sub>peak</sub> evolution case. Magenta pentagons and cyan squares denote the Bayesian block and constant-fluence binning results, respectively, with the dashed curves showing the corresponding best-fit Hill functions. 
 
 </div>
 
