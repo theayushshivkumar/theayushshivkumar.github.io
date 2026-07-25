@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Protostellar Outflows and Gas Kinematics in Massive Star-forming Regions
-description: Research Internship • Physical Research Laboratory (2024–Present)
+description: Research Internship • Physical Research Laboratory (05/2024 – 07/2024)
 img: assets/img/SiO_outflow_channel.png
 importance: 2
 category: Research
