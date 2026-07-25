@@ -1,6 +1,5 @@
 ---
 layout: page
-title: Research
 permalink: /projects/
 description: A List and Brief Description of each of my Previous Research Experiences.
 nav: true
