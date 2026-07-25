@@ -1,81 +1,117 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: Protostellar Outflows and Gas Kinematics in Massive Star-forming Regions
+description: Research Internship • Physical Research Laboratory (2024–Present)
+img: assets/img/SiO_outflow_channel.png
 importance: 2
-category: work
-giscus_comments: true
+category: Research
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+As part of my research at the **Physical Research Laboratory (PRL), Ahmedabad**, I investigated the gas kinematics and molecular outflows associated with a young star cluster. The project aimed to characterise the physical properties of protostellar cores, molecular outflows, and the surrounding dense gas using high-resolution **ALMA Band 7** observations.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+---
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+## Scientific Motivation
+
+Massive stars strongly influence their natal environments through energetic outflows, turbulence, and radiative feedback. Understanding how these outflows interact with their parent molecular clouds is essential for constraining theories of massive star formation.
+
+This project focused on identifying protostellar cores, mapping bipolar outflows, and studying the gas dynamics surrounding embedded young stellar objects using molecular line observations.
+
+---
+
+## Observational Data
+
+The analysis was performed using **ALMA Band 7** observations of a young active star cluster, including several molecular tracers:
+
+- **CO (3–2)** — large-scale molecular outflows
+- **SiO (8–7)** — shocked high-density gas
+- **CH₃CCH** — dense hot-core tracer
+- Continuum emission for identifying compact sources
+
+---
+
+## Techniques
+
+Throughout this project, I gained experience with
+
+- ALMA interferometric data analysis
+- FITS cube analysis in Python
+- Dendrogram source extraction
+- Spectral line identification
+- Moment map generation (Moment 0 & Moment 1)
+- Position–velocity analysis
+- Molecular outflow identification
+- Estimation of outflow mass, momentum, energy and dynamical age
+- Radio astronomy data visualisation using Astropy, spectral-cube, and APLpy
+
+---
+
+## Key Findings
+
+- Identified multiple compact structures consistent with protostellar envelopes and unresolved disks using dendrogram analysis.
+- Detected two molecular outflows, including a prominent bipolar outflow traced by both **CO (3–2)** and **SiO (8–7)**.
+- Estimated physical outflow properties including mass, momentum, kinetic energy, and dynamical timescales.
+- Detected a clear velocity gradient in **CH₃CCH** emission, suggesting possible rotational motion around the embedded protostar.
+- Found that CO and SiO trace complementary components of the outflow, with SiO preferentially tracing shocked, high-density gas while CO traces the larger-scale molecular flow.
+
+---
+
+## Some Interesting Figures
+
+<div class="row justify-content-center">
+
+<div class="col-sm-10">
+
+{% include figure.liquid
+path="assets/img/dendrogram_sources.png"
+class="img-fluid rounded z-depth-1"
+%}
+
 </div>
+
+</div>
+
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+
+**Compact Sources Identified by the Dendrogram Algorithm** The properties of the compact sources are consistent with intermediate- to high-mass protostellar cores.
+
 </div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+
+<br>
+
+<div class="row justify-content-center">
+
+<div class="col-sm-10">
+
+{% include figure.liquid
+path="assets/img/outflow_tracers.png"
+class="img-fluid rounded z-depth-1"
+%}
+
 </div>
+
+</div>
+
 <div class="caption">
-    This image can also have a caption. It's like magic.
+
+**Spectral tracers of Outflows and Cores** (Left) displays the spectral lines tracing outflows (CO j=3-2), jets (SiO j=8-7), and cores (CH₃CCH), plotted over each other. (Right) displays the zoomed-in view of the SiO and CH₃CCH lines. A Clear offset in central wavelengths suggests the influence of Doppler shifts of the core relative to the outflows that need to be taken into account.
+
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+---
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+## Skills Developed
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+- Radio interferometric data analysis
+- Molecular spectroscopy
+- Star formation physics
+- Gas kinematics
+- ALMA data products
+- Spectral cube analysis
+- Python scientific programming
+- Astropy ecosystem
+- Astrodendro source extraction
+- Scientific visualization
