@@ -14,8 +14,9 @@ profile:
   more_info: >
     <p>Currently based in India</p>
     <p>Interested in PhD opportunities</p>
-    <p>Contact: +91 9136118713 | ayush19shiv@gmail.com</p>
-
+    <p>Phone: <a href="tel:+919136111713">+91 9136111713</a></p>
+    <p>Email: <a href="mailto:ayush19shiv@gmail.com">ayush19shiv@gmail.com</a></p>
+    
 # selected_papers: false
 
 social: true
