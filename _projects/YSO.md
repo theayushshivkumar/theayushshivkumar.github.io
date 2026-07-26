@@ -1,80 +1,105 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+title: Infrared Study of Star Formation in Galactic H II Regions
+description: Summer Research Internship • Indian Institute of Space Science and Technology (IIST) (2023)
+img: assets/img/dusttemp_coldens.png
+importance: 4
+category: Research
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This project was my first exposure to observational astrophysics and large astronomical datasets. Conducted as a summer internship at the **Indian Institute of Space Science and Technology (IIST)** under the supervision of **Prof. Sarita Vig**, the project focused on investigating ongoing star formation within a Galactic H II region using infrared observations from the **Spitzer Space Telescope** and the **Herschel Space Observatory**.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+---
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+## Scientific Motivation
+
+Massive stars strongly influence their surrounding molecular clouds through radiation and stellar winds, often triggering or regulating subsequent generations of star formation. Infrared observations provide a powerful means of tracing both embedded young stellar objects (YSOs) and the cold dust structures from which new stars form.
+
+This project combined mid- and far-infrared observations to investigate both the stellar population and the physical properties of the parent molecular cloud.
+
+---
+
+## Observational Data
+
+The analysis made use of archival observations from
+
+- **Spitzer/IRAC**
+- **Herschel/PACS**
+- **Herschel/SPIRE**
+
+These datasets together probe both young stellar populations and the thermal emission from cold interstellar dust.
+
+---
+
+## Techniques
+
+Throughout this internship, I gained practical experience with
+
+- FITS data handling and visualisation
+- Colour–colour diagram analysis for Young Stellar Object (YSO) classification
+- Pixel-by-pixel Spectral Energy Distribution (SED) fitting using **LMFIT**
+- Dust temperature and column density mapping
+- Multi-wavelength image convolution and common-grid analysis
+- Herschel Interactive Processing Environment (HIPE)
+- First exposure to Python-based astronomical data analysis
+
+---
+
+## Some Interesting Findings
+
+- Identified and classified **Young Stellar Objects (YSOs)** into their evolutionary stages (Class I, II, and III) using infrared colour–colour diagrams derived from Spitzer observations.
+- Produced dust temperature and molecular hydrogen column density maps through pixel-by-pixel SED fitting of Herschel PACS and SPIRE observations.
+- Identified several **Infrared Dark Clouds (IRDCs)** appearing as cold, dense filamentary structures, highlighting regions that are favourable sites for future star formation.
+
+---
+
+## Skills Developed
+
+This internship provided my first experience working with professional astronomical observations and introduced me to many of the tools routinely used in observational astrophysics. Beyond learning to analyse infrared imaging datasets, I developed an understanding of image processing, multi-wavelength data analysis, SED fitting techniques, and the practical challenges involved in combining observations obtained at different spatial resolutions.
+
+---
+
+## Some Interesting Figures
+
+<div class="row justify-content-center">
+
+<div class="col-sm-10">
+
+{% include figure.liquid
+path="assets/img/spitzer_ccd.png"
+class="img-fluid rounded z-depth-1"
+%}
+
 </div>
+
+</div>
+
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+
+**The Color-Color Diagram Derived from Spitzer IRAC observations** A popular technique adapted from Megeath et al. (2004) & Allen et al. (2004) for the classification of young stellar objects into their various evolutionary stages (Classes I/II/III).
+
 </div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+
+<br>
+
+<div class="row justify-content-center">
+
+<div class="col-sm-10">
+
+{% include figure.liquid
+path="assets/img/dusttemp_coldens.png"
+class="img-fluid rounded z-depth-1"
+%}
+
 </div>
+
+</div>
+
 <div class="caption">
-    This image can also have a caption. It's like magic.
+
+**Dust temperature and Column Density Maps derived from Herschel PACS and SPIRE observations** The lmfit algorithm for employed for obtaining the pixel-by-pixel best-fit temperatures and column density values. The regions of lower dust temperature and correspondingly higher column densities visible here are typical of Infrared Dark Clouds (IRDCs), which are ideal birthplaces for stars.
+
 </div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
