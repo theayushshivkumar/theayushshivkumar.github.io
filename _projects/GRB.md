@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Investigating the E<sub>peak</sub>–&alpha; Correlation in Gamma-Ray Burst Spectra
-description: Minor Degree Project • IISER Thiruvananthapuram (2025–2026) • Submitted to The Astrophysical Journal
+description: Minor Degree Project • IISER Thiruvananthapuram (01/2025 – 06/2025) • Submitted to The Astrophysical Journal
 img: assets/img/Epeak-alpha_correlation.png
 importance: 3
 related_publications: false
