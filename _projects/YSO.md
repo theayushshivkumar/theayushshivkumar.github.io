@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Infrared Study of Star Formation in Galactic H II Regions
-description: Summer Research Internship • Indian Institute of Space Science and Technology (IIST) (2023)
+description: Summer Research Internship • Indian Institute of Space Science and Technology (IIST) (05/2023 - 07/2023)
 img: assets/img/dusttemp_coldens.png
 importance: 4
 category: Research
