@@ -6,12 +6,8 @@ nav: true
 nav_order: 4
 ---
 
-Most of my analysis pipelines are available on my
-**GitHub**:
-
-## GitHub Profile
-
-👉 **https://github.com/theayushshivkumar**
+Most of my analysis pipelines are publicly available on my
+**[GitHub profile](https://github.com/theayushshivkumar)**.
 
 The repositories include code developed for
 
